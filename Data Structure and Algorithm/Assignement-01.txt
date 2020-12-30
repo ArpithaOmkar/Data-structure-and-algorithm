@@ -1,0 +1,15 @@
+1) for(i=1;i<=n;i++)
+     for(j=i;i<=n;j++)
+       printf("hi")
+
+
+solution:0(n)
+
+
+2) for(i=1;i<=n;i*=3)
+     for(j=1;i<=n;;j++)
+       printf("hello")
+
+
+
+solutuion:0(log(n))
