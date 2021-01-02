@@ -1,0 +1,27 @@
+ASSIGNEMENT DAY-06
+
+
+QUESTION-01
+Write a function to find the maximum element in the stack.
+sol:class stackwithmax
+      def push(self.x):
+        self.mainstack.append(x)
+        if(len(self.mainstack)==1):
+          self.trackstack.append(x)
+           return
+        if(x>self.trackstack[-1]):
+           self.trackstack.append(self.trackstack[-1])
+      def getmax(self):
+          return self.trackstack[-1]
+      def pop(self):
+          self.mainstack.pop()
+          self.trackstack.pop()
+
+
+QUESTION-02
+Write a function to find minimum element in the stack.
+sol:def getmin(self):
+     if self.top is none:
+       return(" stack is empty")
+     else:
+       printf("minimum element in the stack is:{}.format(self.minimum))
