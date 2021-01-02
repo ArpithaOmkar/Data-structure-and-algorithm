@@ -1,0 +1,18 @@
+ASSIGNEMENT DAY -04
+
+
+
+Question-01
+In the binary search algorithm,it is suggested to calculate the mid as 
+beg+(end-beg)/2 instead of (beg+end)/2 why is it so? 
+sol:if the value of start or end or both is int max,it will cause integer overflow
+
+
+Question-02
+write the algorithm/function for ternary search?
+sol:f(m1)<f(m2)  [l;m1]
+    f(m1)>f(m2)  [l;m2]
+    f(m1)=f(m2)  [m1;m2]
+         
+    m1=l+(r-l)/3
+    m2=r-(r-l)/3
